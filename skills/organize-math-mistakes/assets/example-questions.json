@@ -1,0 +1,68 @@
+{
+  "title": "错题整理排版示例",
+  "questions": [
+    {
+      "id": "example-p6-q3-numberline",
+      "source": "示例材料",
+      "page": "6",
+      "number": "3（数轴）",
+      "status": "ready",
+      "selection_reason": "从已整理题型中抽取的工具演示，正式任务须替换本批选题",
+      "blocks": [
+        {"type": "text", "text": "看图列式计算。"},
+        {"type": "number_line", "values": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], "arcs": [[0,5],[5,10],[10,15]], "width": 440},
+        {"type": "equation", "text": "□ ○ □ = □"}
+      ],
+      "answer": ["5 × 3 = 15。"],
+      "verification": "每次跳5格，共3次，终点15。",
+      "work_space": 20
+    },
+    {
+      "id": "example-p6-q3-flower",
+      "source": "示例材料",
+      "page": "6",
+      "number": "3（左图）",
+      "status": "ready",
+      "selection_reason": "演示保留已裁出的复杂题图",
+      "blocks": [
+        {"type": "text", "text": "看图列式计算。"},
+        {"type": "image", "path": "example-flower-left.png", "width": 190},
+        {"type": "text", "text": "？朵"},
+        {"type": "equation", "text": "□ ○ □ = □"}
+      ],
+      "answer": ["5 × 2 = 10（朵），也可写2 × 5 = 10（朵）。"],
+      "verification": "两组花，每组5朵，共10朵。",
+      "work_space": 25
+    },
+    {
+      "id": "example-p6-q6-2",
+      "source": "示例材料",
+      "page": "6",
+      "number": "6（2）",
+      "status": "ready",
+      "selection_reason": "演示保留原有四个不同数量关系",
+      "blocks": [
+        {"type": "text", "text": "2和5相加得（       ），\n2和5相乘得（       ），\n2个5相加得（       ），\n2个5相乘得（       ）。"}
+      ],
+      "answer": ["依次填：7，10，10，25。"],
+      "verification": "依次对应2 + 5、2 × 5、5 + 5、5 × 5。",
+      "work_space": 40
+    },
+    {
+      "id": "example-p7-q6-4",
+      "source": "示例材料",
+      "page": "7",
+      "number": "6（4）",
+      "status": "ready",
+      "selection_reason": "演示同一组三个数和双算式的条件核验",
+      "blocks": [
+        {"type": "text", "text": "在3、15、5、4、20中选三个数，写出两道不同的乘法算式。"},
+        {"type": "equation", "text": "□ × □ = □"},
+        {"type": "equation", "text": "□ × □ = □"}
+      ],
+      "answer": ["示例：选3、5、15。3 × 5 = 15，5 × 3 = 15。", "另一组：选4、5、20。4 × 5 = 20，5 × 4 = 20。"],
+      "verification": "每组只使用同一组三个数，两道乘法均成立。",
+      "work_space": 40
+    }
+  ]
+}

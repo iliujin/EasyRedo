@@ -1,0 +1,4 @@
+interface:
+  display_name: "小学数学错题整理"
+  short_description: "按原页码题号整理圈选错题，去除作答痕迹，核验答案并生成可打印分册"
+  default_prompt: "请使用 $organize-math-mistakes 整理我提供的数学题照片，按标记选题、保留原页码题号，生成干净题目版和对应答案版，并完成内容与排版检查。"
